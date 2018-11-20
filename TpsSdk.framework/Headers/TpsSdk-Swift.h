@@ -414,6 +414,8 @@ SWIFT_CLASS("_TtC6TpsSdk11TpsTpsError")
 
 SWIFT_CLASS("_TtC6TpsSdk11Transaction")
 @interface Transaction : NSObject
+- (NSDate * _Nonnull)getEnteredAt SWIFT_WARN_UNUSED_RESULT;
+- (NSDate * _Nonnull)getExitedAt SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSNumber;
