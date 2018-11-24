@@ -414,8 +414,8 @@ SWIFT_CLASS("_TtC6TpsSdk11TpsTpsError")
 
 SWIFT_CLASS("_TtC6TpsSdk11Transaction")
 @interface Transaction : NSObject
-- (NSDate * _Nonnull)getEnteredAt SWIFT_WARN_UNUSED_RESULT;
-- (NSDate * _Nonnull)getExitedAt SWIFT_WARN_UNUSED_RESULT;
+- (NSDate * _Nullable)getEnteredAt SWIFT_WARN_UNUSED_RESULT;
+- (NSDate * _Nullable)getExitedAt SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class NSNumber;
@@ -432,9 +432,9 @@ SWIFT_CLASS("_TtC6TpsSdk12VehicleModel")
 /// Vehicle rental status
 @property (nonatomic) BOOL isRental;
 /// Rental vehicle validation start date
-@property (nonatomic, strong) NSNumber * _Nullable validFrom;
+@property (nonatomic, copy) NSDate * _Nullable validFrom;
 /// Rental vehicle validation end date
-@property (nonatomic, strong) NSNumber * _Nullable validTo;
+@property (nonatomic, copy) NSDate * _Nullable validTo;
 @property (nonatomic, copy) NSString * _Nullable make;
 @property (nonatomic, copy) NSString * _Nullable model;
 @property (nonatomic, strong) NSNumber * _Nullable year;
