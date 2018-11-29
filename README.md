@@ -6,7 +6,7 @@ The TPS SDK is for interacting with the TPS platform to add, update or remove ve
 In order to use SDK framework you must be a registered developer with a provisioned token.
 
 ## Requirements
-* SDK Supports min IOS 11 or newer Deployment Target.
+* SDK Supports min IOS 9.3 or newer Deployment Target.
 * TokenProvider Protocol must be implemented for Authentication Token: Provided by TPS Development Team.
 
 ## Integration 
@@ -192,4 +192,4 @@ carthage update --platform iOS --verbose
 ```
 
 ## Version
-* 1.0
+* 1.0.1
