@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'TpsSdk'
-    s.version           = '0.0.1'
+    s.version           = '1.0.0'
     s.summary           = 'Ticketless Parking SDK Provided by Beam UAE'
     s.homepage          = 'http://beamuae.app/'
     s.dependency 'Moya/ReactiveSwift', '~> 12.0'
