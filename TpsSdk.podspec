@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name              = 'TPSSdk'
+    s.name              = 'TpsSdk'
     s.version           = '0.0.1'
     s.summary           = 'Ticketless Parking SDK Provided by Beam UAE'
     s.homepage          = 'http://beamuae.app/'
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'https://github.com/beammaf/tps-sdk-ios.git',:branch => 'CocoaPods'}
 
     s.ios.deployment_target = '11.0'
-    s.ios.vendored_frameworks = 'TpsSDK.framework', 'ReactiveMoya.framework', 'RxMoya.framework'
+    s.ios.vendored_frameworks = 'TpsSdk.framework', 'ReactiveMoya.framework', 'RxMoya.framework'
     s.requires_arc = true
 end
